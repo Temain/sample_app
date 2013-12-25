@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
+<<<<<<< HEAD
   <data-source source="LOCAL" name="Rails sample_app: development" uuid="de53ddd0-df5b-41e9-a920-7e93b6ffc20c">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
@@ -7,6 +8,18 @@
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
   <data-source source="LOCAL" name="Rails sample_app: production" uuid="73e7567d-cf12-466b-8e64-824efcc1363a">
+=======
+  <data-source source="LOCAL" name="Rails sample_app: development" uuid="636c0943-b755-4b2b-8027-455161538fee">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails sample_app: test" uuid="84fbb269-ae6c-4db3-8ca5-ee091c26a729">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails sample_app: production" uuid="07225da1-2982-48bf-b203-fad6abda59b6">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails sample_app: default" uuid="15ca56bf-017e-41e0-9338-ea83958bd69a">
+>>>>>>> static_pages
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
 </component>
