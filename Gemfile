@@ -3,14 +3,17 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 gem 'bootstrap-sass', '2.1'
-
+gem 'bcrypt-ruby', '3.1.2'
 gem 'pg', '0.17.1'
 gem 'turbolinks'
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.11.0'
+  gem 'annotate', '2.5.0'
+  gem 'rb-readline', '~> 0.4.2'
 end
+
 
 group :assets do
   gem 'sass-rails',   '4.0.1'
