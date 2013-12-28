@@ -18,14 +18,18 @@ default: &default
   adapter: postgresql
   encoding: unicode
   pool: 5
+  port: 5432
+development:
+  <<: *default
   database: sample_db
   username: postgres
   password: 1973648205q
   host: localhost
-  port: 5432
-development:
-  <<: *default
 test:
   <<: *default
 production:
   <<: *default
+  database: dc2pft64psh1gk
+  username: bkbdfgiqoirnzh
+  password: V69wGdu1j2QfZoqxsmSlkVlch9
+  host: ec2-54-197-241-64.compute-1.amazonaws.com
