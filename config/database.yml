@@ -15,25 +15,21 @@
 # gem 'pg'
 #
 default: &default
-  adapter: postgresql
-  encoding: unicode
-  pool: 5
-  port: 5432
+
 development:
-  <<: *default
-  database: sample_db
-  username: postgres
-  password: 1973648205q
-  host: localhost
+  adapter: sqlite3
+  database: db/development.sqlite3
+  pool: 5
+  timeout: 5000
 test:
   <<: *default
-  database: sample_db
-  username: postgres
-  password: 1973648205q
-  host: localhost
 production:
   <<: *default
-  database: dc2pft64psh1gk
-  username: bkbdfgiqoirnzh
-  password: V69wGdu1j2QfZoqxsmSlkVlch9
-  host: ec2-54-197-241-64.compute-1.amazonaws.com
+  #adapter: postgresql
+  #encoding: unicode
+  #pool: 5
+  #port: 5432
+  #database: dc2pft64psh1gk
+  #username: bkbdfgiqoirnzh
+  #password: V69wGdu1j2QfZoqxsmSlkVlch9
+  #host: ec2-54-197-241-64.compute-1.amazonaws.com

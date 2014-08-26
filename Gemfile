@@ -4,16 +4,20 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.2'
 gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.1.2'
-gem 'pg', '0.17.1'
+gem 'sqlite3', '1.3.7'
+#gem 'pg', '0.17.1'
 gem 'turbolinks'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.11.0'
   gem 'annotate', '2.5.0'
   gem 'rb-readline', '~> 0.4.2'
 end
 
+group :production do
+  gem 'pg', '0.17.1'
+  gem 'rails_12factor', '0.0.2'
+end
 
 group :assets do
   gem 'sass-rails',   '4.0.1'
@@ -32,7 +36,7 @@ end
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
 # Use unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
