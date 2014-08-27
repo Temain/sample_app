@@ -16,6 +16,7 @@ group :development, :test do
   gem 'rspec-rails', '2.11.0'
   gem 'annotate', '2.5.0'
   gem 'rb-readline', '~> 0.4.2'
+  gem 'net-ssh', '2.7.0'
 end
 
 group :production do
