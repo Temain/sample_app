@@ -1,12 +1,16 @@
 source 'https://rubygems.org'
 
+ruby '2.1.2'
+#ruby-gemset=sample
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.1.2'
 gem 'sqlite3', '1.3.7'
-#gem 'pg', '0.17.1'
 gem 'turbolinks'
+gem 'capistrano'
+gem 'rvm-capistrano'
 
 group :development, :test do
   gem 'rspec-rails', '2.11.0'
