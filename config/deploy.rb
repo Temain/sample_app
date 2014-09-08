@@ -32,6 +32,7 @@ namespace :deploy do
     sudo "ln -nfs #{current_path}/config/nginx.conf /etc/nginx/sites-enabled/#{application}"
     sudo "ln -nfs #{current_path}/config/unicorn_init.sh /etc/init.d/unicorn_#{application}"
     run "mkdir -p #{shared_path}/config"
+    run "mkdir -p #{shared_path}/pids"
     put File.read("config/database.example.yml"), "#{shared_path}/config/database.yml"
     puts "Now edit #{shared_path}/config/database.yml and add your username and password"
   end
