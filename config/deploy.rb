@@ -54,7 +54,7 @@ namespace :deploy do
 
   desc "Make pids directory."
   task :mk_pids, roles: :app do
-    run "mkdir -p #{shared_path}/pids"
+    run "mkdir -p #{release_path}/pids"
   end
   before "deploy", "deploy:mk_pids"
 end
