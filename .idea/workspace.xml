@@ -47,7 +47,7 @@
       <file leaf-file-name="unicorn_init.sh" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/unicorn_init.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="8" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
+            <state line="34" column="25" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1335">
               <folding />
             </state>
           </provider>
@@ -65,7 +65,7 @@
       <file leaf-file-name="deploy.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="0" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.68085104" vertical-offset="169" max-vertical-offset="900">
+            <state line="52" column="42" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.6873977" vertical-offset="360" max-vertical-offset="975">
               <folding />
             </state>
           </provider>
@@ -903,14 +903,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/unicorn_init.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="8" selection-start="646" selection-end="646" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1335">
+        <state line="34" column="25" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="1335">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="0" selection-start="1296" selection-end="1296" vertical-scroll-proportion="0.68085104" vertical-offset="169" max-vertical-offset="900">
+        <state line="52" column="42" selection-start="1780" selection-end="1780" vertical-scroll-proportion="0.6873977" vertical-offset="360" max-vertical-offset="975">
           <folding />
         </state>
       </provider>
