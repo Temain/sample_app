@@ -51,10 +51,4 @@ namespace :deploy do
     end
   end
   before "deploy", "deploy:check_revision"
-
-  desc "Make pids directory."
-  task :mk_pids, roles: :app do
-    run "mkdir -p #{release_path}/pids"
-  end
-  before "deploy", "deploy:mk_pids"
 end
