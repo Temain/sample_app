@@ -9,7 +9,7 @@ gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.1.2'
 gem 'sqlite3', '1.3.7'
 gem 'turbolinks'
-gem 'capistrano'
+gem 'capistrano', '2.15.5'
 gem 'rvm-capistrano'
 
 group :development, :test do
