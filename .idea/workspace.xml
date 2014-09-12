@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a28876a-25b0-4b72-a293-ac8f76693977" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/deploy.rb" afterPath="$PROJECT_DIR$/config/deploy.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/nginx.conf" afterPath="$PROJECT_DIR$/config/nginx.conf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pids/readme" afterPath="$PROJECT_DIR$/pids/readme" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sample_app.iws" />
@@ -40,7 +38,7 @@
       <file leaf-file-name="nginx.conf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="23" selection-start="147" selection-end="147" vertical-scroll-proportion="0.14729951" vertical-offset="0" max-vertical-offset="611">
+            <state line="10" column="19" selection-start="216" selection-end="216" vertical-scroll-proportion="0.24549918" vertical-offset="0" max-vertical-offset="611">
               <folding />
             </state>
           </provider>
@@ -934,7 +932,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="23" selection-start="147" selection-end="147" vertical-scroll-proportion="0.14729951" vertical-offset="0" max-vertical-offset="611">
+        <state line="10" column="19" selection-start="216" selection-end="216" vertical-scroll-proportion="0.24549918" vertical-offset="0" max-vertical-offset="611">
           <folding />
         </state>
       </provider>
