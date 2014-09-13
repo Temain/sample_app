@@ -38,7 +38,16 @@
       <file leaf-file-name="nginx.conf" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/nginx.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="3" selection-start="522" selection-end="522" vertical-scroll-proportion="0.5155483" vertical-offset="0" max-vertical-offset="611">
+            <state line="10" column="19" selection-start="233" selection-end="233" vertical-scroll-proportion="0.24549918" vertical-offset="0" max-vertical-offset="611">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="24" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
               <folding />
             </state>
           </provider>
@@ -876,11 +885,6 @@
         <state line="34" column="3" selection-start="792" selection-end="792" vertical-scroll-proportion="0.5301455" vertical-offset="0" max-vertical-offset="962" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="327" selection-end="327" vertical-scroll-proportion="0.09375" vertical-offset="0" max-vertical-offset="960" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="0" selection-start="797" selection-end="797" vertical-scroll-proportion="0.34369886" vertical-offset="0" max-vertical-offset="611" />
@@ -924,9 +928,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="24" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/nginx.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="3" selection-start="522" selection-end="522" vertical-scroll-proportion="0.5155483" vertical-offset="0" max-vertical-offset="611">
+        <state line="10" column="19" selection-start="233" selection-end="233" vertical-scroll-proportion="0.24549918" vertical-offset="0" max-vertical-offset="611">
           <folding />
         </state>
       </provider>
